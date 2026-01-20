@@ -1,0 +1,31 @@
+/*
+ * HomePage Messages
+ *
+ * This contains all the text for the HomePage component.
+ */
+import { defineMessages } from 'react-intl';
+
+export const scope = 'boilerplate.containers.HomePage';
+
+export default defineMessages({
+  startProjectHeader: {
+    id: `${scope}.start_project.header`,
+    defaultMessage: 'Home Page',
+  },
+  startProjectMessage: {
+    id: `${scope}.start_project.message`,
+    defaultMessage: 'Home Page',
+  },
+  trymeHeader: {
+    id: `${scope}.tryme.header`,
+    defaultMessage: '',
+  },
+  trymeMessage: {
+    id: `${scope}.tryme.message`,
+    defaultMessage: '',
+  },
+  trymeAtPrefix: {
+    id: `${scope}.tryme.atPrefix`,
+    defaultMessage: '',
+  },
+});
